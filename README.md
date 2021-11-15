@@ -1,6 +1,6 @@
 # MySoureCode-Backup
 
-## 你好！这里是我学习过程中所产生练习代码的备份库...
+## 你好！这里是我学习过程中所产生练习代码的备份库:)
 
 *[README for English readers](/README_EN.md)*
 
@@ -12,5 +12,4 @@
 
 - [ ] SCM -> (待补充...)
 
->  若你发现任何问题，或有更好的建议, 请[告诉我](https://github.com/AokIvan/MySoureCode-Backup/issues/new)  : )
-
+> 若你发现任何问题，或有更好的建议, 请[告诉我](https://github.com/AokIvan/MySoureCode-Backup/issues/new):)
