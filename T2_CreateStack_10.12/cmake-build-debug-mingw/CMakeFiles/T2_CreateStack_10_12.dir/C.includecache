@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Project_Lib/DataStructure/T2_CreateStack_10.12/main.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+

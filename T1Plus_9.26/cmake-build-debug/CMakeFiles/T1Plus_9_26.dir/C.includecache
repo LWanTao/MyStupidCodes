@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Project_Lib/DataStructure/T1Plus_9.26/main.c
+stdbool.h
+-
+stdio.h
+-
+stdlib.h
+E:/Project_Lib/DataStructure/T1Plus_9.26/stdlib.h
+
