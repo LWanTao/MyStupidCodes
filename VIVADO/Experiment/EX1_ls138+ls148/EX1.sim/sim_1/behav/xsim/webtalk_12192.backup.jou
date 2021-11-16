@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Nov 16 22:23:14 2021
+# Process ID: 12192
+# Current directory: E:/Project_Lib/MySoureCode-Backup/VIVADO/Experiment/EX1_ls138+ls148/EX1.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/Project_Lib/MySoureCode-Backup/VIVADO/Experiment/EX1_ls138+ls148/EX1.sim/sim_1/behav/xsim/xsim.dir/tb_ls138_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/Project_Lib/MySoureCode-Backup/VIVADO/Experiment/EX1_ls138+ls148/EX1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/Project_Lib/MySoureCode-Backup/VIVADO/Experiment/EX1_ls138+ls148/EX1.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/Project_Lib/MySoureCode-Backup/VIVADO/Experiment/EX1_ls138+ls148/EX1.sim/sim_1/behav/xsim/xsim.dir/tb_ls138_behav/webtalk/xsim_webtalk.tcl -notrace
