@@ -1,8 +1,8 @@
 //////////////////////////////////////////////////////////
 //                      74LS148                         //
-// Author: AokIvan                                      //
+// Author: AokIvan(https://github.com/aokivan)          //
 //                                                      //
-// Create Date: 2021/11/16 21:01:12                     //
+// Create Date: 2021/11/16                              //
 //                                                      //
 // Project Requirements: Use if-else or case struct.    //
 //                                                      //

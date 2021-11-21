@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../EX3_DetectorFor1001.srcs/sources_1/new/detector.v" \
+"../../../../EX3_DetectorFor1001.srcs/sim_1/new/tb_detector.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

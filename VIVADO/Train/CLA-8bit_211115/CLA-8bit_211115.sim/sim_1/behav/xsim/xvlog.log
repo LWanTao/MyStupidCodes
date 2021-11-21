@@ -1,6 +1,6 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_Lib/VIVADO/Train/CLA-8bit_211115/CLA-8bit_211115.srcs/sources_1/new/add_ahead_gene.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_Lib/MySoureCode-Backup/VIVADO/Train/CLA-8bit_211115/CLA-8bit_211115.srcs/sources_1/new/add_ahead_gene.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module add_ahead_gene
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_Lib/VIVADO/Train/CLA-8bit_211115/CLA-8bit_211115.srcs/sim_1/new/module add_ahead_gene_vlg_tst.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_Lib/MySoureCode-Backup/VIVADO/Train/CLA-8bit_211115/CLA-8bit_211115.srcs/sim_1/new/module add_ahead_gene_vlg_tst.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module add_ahead_gene_vlg_tst
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_Lib/VIVADO/Train/CLA-8bit_211115/CLA-8bit_211115.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_Lib/MySoureCode-Backup/VIVADO/Train/CLA-8bit_211115/CLA-8bit_211115.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module glbl

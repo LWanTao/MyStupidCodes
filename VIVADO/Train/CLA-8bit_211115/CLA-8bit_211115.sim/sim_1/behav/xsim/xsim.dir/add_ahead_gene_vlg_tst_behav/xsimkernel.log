@@ -1,7 +1,4 @@
-Running: xsim.dir/add_ahead_gene_vlg_tst_behav/xsimk.exe -simmode gui -wdb add_ahead_gene_vlg_tst_behav.wdb -simrunnum 0 -socket 14010
+Running: xsim.dir/add_ahead_gene_vlg_tst_behav/xsimk.exe -simmode gui -wdb add_ahead_gene_vlg_tst_behav.wdb -simrunnum 0 -socket 13279
 Design successfully loaded
-Design Loading Memory Usage: 6636 KB (Peak: 6636 KB)
-Design Loading CPU Usage: 30 ms
-Simulation completed
-Simulation Memory Usage: 7220 KB (Peak: 7220 KB)
-Simulation CPU Usage: 30 ms
+Design Loading Memory Usage: 6700 KB (Peak: 6700 KB)
+Design Loading CPU Usage: 31 ms

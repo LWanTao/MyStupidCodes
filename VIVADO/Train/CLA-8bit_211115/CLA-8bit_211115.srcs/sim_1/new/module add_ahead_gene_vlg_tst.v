@@ -1,4 +1,3 @@
-`timescale 1ns / 1ps
 module add_ahead_gene_vlg_tst();
 parameter DELY=80;
 reg [7:0] a;
