@@ -1,8 +1,9 @@
 module tb_ls148();
-reg a0,a1,a2,a3,a4,a5,a6,a7,S;wire y0,y1,y2,ys,yex;
-ls148 i1(.a0(a0),.a1(a1),.a2(a2),.a3(a3),.a4(a4),.a5(a5),.a6(a6),.a7(a7),.S(S),.y0(y0),.y1(y1),.y2(y2),.ys(ys),.yex(yex));
-
+reg a0,a1,a2,a3,a4,a5,a6,a7,S,clr;wire y0,y1,y2,ys,yex;
+ls148 i1(.clr(clr),.a0(a0),.a1(a1),.a2(a2),.a3(a3),.a4(a4),.a5(a5),
+.a6(a6),.a7(a7),.S(S),.y0(y0),.y1(y1),.y2(y2),.ys(ys),.yex(yex));
 initial begin
+clr <= 0;
 S<=1;{a7,a6,a5,a4,a3,a2,a1,a0}=8'b11111111;
 #100;S<=0;
 #50;{a7,a6,a5,a4,a3,a2,a1,a0}=8'b11111111;
@@ -14,7 +15,6 @@ S<=1;{a7,a6,a5,a4,a3,a2,a1,a0}=8'b11111111;
 #50;{a7,a6,a5,a4,a3,a2,a1,a0}=8'b11111011;
 #50;{a7,a6,a5,a4,a3,a2,a1,a0}=8'b11111101;
 #50;{a7,a6,a5,a4,a3,a2,a1,a0}=8'b11111110;
-#100;S<=1;
-end
-
-endmodule
+#50;clr <=1;
+#50;S<=1;clr <=0;
+end endmodule

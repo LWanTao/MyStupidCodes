@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_Lib/MySoureCode-Backup/VIVADO/Experiment/EX1_ls138+ls148/EX1.srcs/sources_1/new/ls148.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module ls148
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_Lib/MySoureCode-Backup/VIVADO/Experiment/EX1_ls138+ls148/EX1.srcs/sim_1/new/tb_ls148.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tb_ls148

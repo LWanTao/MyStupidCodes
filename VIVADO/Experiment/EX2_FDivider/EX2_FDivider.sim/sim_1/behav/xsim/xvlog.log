@@ -1,8 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_Lib/MySoureCode-Backup/VIVADO/Experiment/EX2_FDivider/EX2_FDivider.srcs/sources_1/new/FDivider.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module FDivider
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_Lib/MySoureCode-Backup/VIVADO/Experiment/EX2_FDivider/EX2_FDivider.srcs/sources_1/new/even_divider.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module even_divider
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_Lib/MySoureCode-Backup/VIVADO/Experiment/EX2_FDivider/EX2_FDivider.srcs/sources_1/new/odd_divider.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module odd_divider
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_Lib/MySoureCode-Backup/VIVADO/Experiment/EX2_FDivider/EX2_FDivider.srcs/sim_1/new/tb_FDivider.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tb_FDivider

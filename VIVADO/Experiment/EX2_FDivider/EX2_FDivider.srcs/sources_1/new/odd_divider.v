@@ -4,21 +4,23 @@ module odd_divider#(parameter NUM_DIV = 5)
     output clk_div
     );
     reg[2:0] cnt1;reg[2:0] cnt2;reg clk_div1, clk_div2;
-always @(posedge clk or negedge rst_n)begin
+
+always @(posedge clk or negedge rst_n)begin     //以clk上升沿为基础进行计数并分频
     if(!rst_n) cnt1 <= 0;
     else if(cnt1 < NUM_DIV - 1) cnt1 <= cnt1 + 1'b1;
     else cnt1 <= 0;end
 always @(posedge clk or negedge rst_n)begin
     if(!rst_n) clk_div1 <= 1'b0;
     else if(cnt1 < NUM_DIV / 2) clk_div1 <= 1'b1;
-    else clk_div1 <= 1'b0;end       
-always @(negedge clk or negedge rst_n)begin
+    else clk_div1 <= 1'b0;end      
+
+always @(negedge clk or negedge rst_n)begin     //以clk下降沿为基础进行计数并分频
     if(!rst_n) cnt2 <= 0;
     else if(cnt2 < NUM_DIV - 1) cnt2 <= cnt2 + 1'b1;
     else cnt2 <= 0;end
-always @(negedge clk or negedge rst_n)begin
+always @(negedge clk or negedge rst_n)begin     
     if(!rst_n) clk_div2 <= 1'b0;
     else if(cnt2 < NUM_DIV / 2) clk_div2 <= 1'b1;
-    else clk_div2 <= 1'b0;end     
-    assign clk_div = clk_div1 | clk_div2;
+    else clk_div2 <= 1'b0;end      
+assign clk_div = clk_div1 | clk_div2;              //将两个时间差为半个clk周期的分频clk通过按位或来合并
 endmodule
