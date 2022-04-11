@@ -6,6 +6,8 @@
 //                                                      //
 // Project Requirements: Use if-else or case struct.    //
 //                                                      //
+//         You may find details at the link below       //
+//              https://blog.csdn.net/LWanTao           //
 //////////////////////////////////////////////////////////
 module ls138(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7,S1,S2,S3,clr);
 input a,b,c,S1,S2,S3,clr;

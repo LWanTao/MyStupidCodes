@@ -1,3 +1,12 @@
+//////////////////////////////////////////////////////////
+//                         ITL                          //
+// Author: AokIvan(https://github.com/aokivan)          //
+//                                                      //
+// Create Date: 2021/11/21                              //
+//                                                      //
+//        You may find details at the link below        //
+//             https://blog.csdn.net/LWanTao            //
+//////////////////////////////////////////////////////////
 module ITL#(parameter DELY = 30,S0=3'b000,S1=3'b001,S2=3'b010,S3=3'b011,
 S4=3'b100,S5=3'b101,S6=3'b110,S7=3'b111)//一个全局变量统一相对时间比例&八个状态
 (input clk,clr,output reg green1,yellow1,left1,red1,green2,yellow2,left2,red2,

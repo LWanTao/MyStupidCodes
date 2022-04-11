@@ -1,4 +1,12 @@
-module SEG(clk,clr,din,seg,sel);
+//////////////////////////////////////////////////////////
+//                         SEG                          //
+// Author: AokIvan(https://github.com/aokivan)          //
+//                                                      //
+// Create Date: 2021/11/21                              //
+//                                                      //
+//        You may find details at the link below        //
+//             https://blog.csdn.net/LWanTao            //
+//////////////////////////////////////////////////////////module SEG(clk,clr,din,seg,sel);
 input clk;input clr;input [5:0] din;output reg[3:0] sel; //位选
 output reg[7:0] seg; //段选
 reg [7:0] seg_data; //该变量存储两个数码管分别显示的数值
