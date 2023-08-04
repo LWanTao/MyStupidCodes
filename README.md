@@ -1,6 +1,6 @@
-# MySoureCode-Backup
+# My Stupid Codes
 
-## 你好！这里是我学习过程中所产生练习代码的备份库:)
+## 你好！这里是我学习过程中所产生练习代码的备份库: )
 
 *[README for English readers](/README_EN.md)*
 
@@ -12,4 +12,4 @@
 
 - [x] SCM -> 《手把手教你学51单片机(C语言版)》(第2版) —— 主编：宋雪松，清华大学出版社
 
-> 若你发现任何问题，或有更好的建议, 请[告诉我](https://github.com/AokIvan/MySoureCode-Backup/issues/new):)
+> 若你发现任何问题，或有更好的建议, 请[告诉我](https://github.com/LWanTao/MyStupidCodes/issues/new): )
