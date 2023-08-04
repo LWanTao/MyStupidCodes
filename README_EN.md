@@ -1,4 +1,4 @@
-# MySoureCode-Backup
+# My Stupid Codes
 
 *It's just a repo storing my source code produced during my learning...*
 
